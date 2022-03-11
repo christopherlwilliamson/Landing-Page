@@ -1,0 +1,193 @@
+body {
+    background-color: #1F2937;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    margin-left: auto;
+    color: white;
+}
+
+.content{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 32px;
+}
+
+.content2{
+    background-color:#F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding-bottom: 60px;
+}
+
+.content3{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    flex-wrap: wrap;
+}
+
+.quotecontainer{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.quote{
+    flex-wrap: nowrap;
+    font-style:italic;
+    font-size: 36px;
+}
+
+.quoted{
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: center;
+}
+
+.box {
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    gap: 20px;
+}
+
+
+
+.randominfo {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 6px;
+}
+
+.card {
+    display: flex;
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup1 {
+    color: white;
+    background-color: #3882F6;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.image1 {
+    width: 400px;
+    height: auto;
+}
+
+.content4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 120px;
+    flex: 1;
+}
+
+.actioncontainer{
+    background-color: #3882F6;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 700px;
+}
+
+.actiontext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.action {
+    font-weight: bold;
+   
+}
+
+
+.childbutton{
+    align-self: flex-end;
+}
+
+.signup {
+    color: white;
+    background-color: #3882F6;
+    border-color: white;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
